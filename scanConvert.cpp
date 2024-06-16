@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to plot a point at (x, y)
+// Function to plot a point at (x,y)
 void plotPoint(int x, int y) {
     glBegin(GL_POINTS);
     glVertex2i(x, y);
